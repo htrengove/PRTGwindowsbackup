@@ -1,5 +1,5 @@
 $DEVICE=$args[0]
-
+#checkBackups
 $BackupStatus = Invoke-Command -Computername $DEVICE -ScriptBlock { Get-WBSummary }
 
 "<prtg>"
